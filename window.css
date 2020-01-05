@@ -1,0 +1,238 @@
+@media only screen and (prefers-color-scheme: dark) {
+	.window-header {
+		background-color: #202124 !important;
+		color: #a6aaa3 !important;
+	}
+
+	.window-body-addressbar {
+    		 border: 0px ridge #cccccc !important; 
+	}
+
+	.addressbar-secure {
+		background-color: #282c2f !important;
+		color: #c7c7c7 !important;
+	}
+
+	#new-window {
+		background-color: #282c2f !important;
+		color: #a6aaa3 !important;
+	}
+
+	.addressbar-address {
+		color: #c7c7c7 !important;
+		background-color: #282c2f !important;
+	}
+	i.flaticon--custom-1:hover {
+    		color: white !important;
+	}
+	i.flaticon--custom-1.flaticon-multi-tab:hover {
+		background-color: #373b3e !important;
+	}
+	i.flaticon--custom-1.flaticon-minus-symbol:hover {
+		background-color: #373b3e !important;
+	}
+	.addressbar-secure:hover {
+    		background-color: #373b3e !important;
+	}
+}
+@media only screen and (prefers-color-scheme: light) {
+	.window-body-addressbar {
+    		 border: 0px ridge #cccccc !important; 
+	}
+	.window-header {
+		background-color: #dfdfdf !important;
+	}
+
+	.addressbar-secure {
+		background-color: #f6f6f6 !important;
+		color: #797979;
+	}
+
+	#new-window {
+		background-color: #fff !important;
+		color: #000 !important;
+	}
+
+	.addressbar-address {
+		color: #4d4d4d !important;
+		background-color: #f6f6f6 !important;
+	}
+	i.flaticon--custom-1.flaticon-multi-tab:hover {
+		background-color: #cbcbcb !important;
+		color: black;
+	}
+	i.flaticon--custom-1.flaticon-minus-symbol:hover {
+		background-color: #cbcbcb !important;
+		color: black !important;
+	}
+	i.flaticon--custom-1.flaticon-cancel:hover {
+		color: black !important;
+	}
+	.addressbar-secure:hover {
+    		background-color: #dfdfdf !important;
+	}
+}
+
+#new-window {
+	position: fixed;
+	border: 1px solid #3e3e3e;
+	display: none;
+	z-index: 1000000;
+	bottom: 0;
+	font-size: 14px;
+	font-family: Open Sans, sans-serif;
+}
+.ui-widget-content {
+	border: 1px solid #dddddd;
+	background: #ffffff;
+	color: #333333;
+}
+.ui-draggable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+.window-header {
+	padding: 0 7px;
+	height: 30px;
+	line-height: 30px;
+}
+	.window-header-logo {
+		background: url(https://steamcommunity.com/favicon.ico) center center/16px 16px no-repeat;
+		width: 16px;
+		height: 16px;
+		margin: 7px 7px 0 0;
+	}
+	.window-header div {
+		cursor: context-menu;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.window-header-actions {
+		float: right;
+		margin: 0 -6px 0 0;
+		font-size: 10px;
+	}
+		.flaticon--custom-1:hover {
+			cursor: pointer;
+			color: #ccc;
+		}
+		
+.window-body {
+	height: calc(100% - 30px);
+}
+i.flaticon--custom-1{
+    padding: 18px;
+    transition: 0.1s;
+}
+i.flaticon--custom-1.flaticon-cancel:hover {
+    background-color: red;
+}
+	.window-body-addressbar {
+		line-height: 26px;
+		box-sizing: border-box;
+	}
+	.addressbar-secure {
+		width: 140px;
+		float: left;
+		padding: 0 0 0 6px;
+		white-space: nowrap;
+		display: inline-block;
+		box-sizing: border-box;
+		transition: 0.2s !important;
+	}
+	.addressbar-secure:hover {
+   		border-radius: 9px;
+    		cursor: pointer !important;
+    		
+	}
+	.addressbar-secure:hover::after {
+    		width: 0px;
+	}
+		.addressbar-secure::after {
+			content: '';
+			height: 14px;
+			width: 1px;
+			display: inline-block;
+			background-color: #b6b6b6;
+			margin: 0 0 0 8px;
+			vertical-align: middle;
+		}
+	.addressbar-secure-label {
+		margin: 0 0 0 6px;
+	}
+.addressbar-address {
+	white-space: nowrap;
+	padding: 0 4px;
+	overflow: hidden;
+	width: calc(100% - 140px);
+	line-height: inherit;
+	border: 0;
+        border: 0px solid #ddd;
+        padding: 0px;
+	max-width: 100%;
+}
+.window-body-data-1 {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	height: calc(100% - 25px);
+}
+
+button[disabled], html input[disabled] {
+	cursor: default;
+}
+input, input:active, input:focus {
+	outline: 0 !important;
+}
+
+
+@media (min-width: 800px)
+iframe {
+	width: 560px;
+	height: 315px;
+}
+@media (min-width: 425px)
+iframe {
+	width: 405px;
+	height: 227px;
+}
+@media (min-width: 375px)
+iframe {
+	width: 355px;
+	height: 198px;
+}
+@media (min-width: 320px)
+iframe {
+	width: 290px;
+	height: 162px;
+}
+
+/*
+ *
+ *			Flaticon
+ *
+ */
+
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("https://cdn.jsdelivr.net/gh/fantsher/stc/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: inherit;
+  font-style: normal;
+}
+
+.flaticon-lock:before { content: "\f100"; }
+.flaticon-minus-symbol:before { content: "\f101"; }
+.flaticon-multi-tab:before { content: "\f102"; }
+.flaticon-cancel:before { content: "\f103"; }
